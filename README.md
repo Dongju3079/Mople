@@ -3,6 +3,10 @@
 ![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
 ![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
+## Archiecture
+[아키텍쳐 구성도.pdf](https://github.com/user-attachments/files/20030012/default.pdf)
+
+
 ## 목차
 - [소개](#소개)
 - [특징(Features)](#특징features)
