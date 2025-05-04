@@ -68,3 +68,11 @@
 - 애니메이션 및 화면 전환
   - 부드러운 애니메이션을 활용한 화면 전환
   - 네비게이션 간 자연스러운 전환을 위한 Transition 구현
+ 
+## 스크린샷
+
+![May-05-2025 07-24-07](https://github.com/user-attachments/assets/36f314f8-1062-4305-8604-c3aa2f2ed11d)
+![May-05-2025 07-23-41](https://github.com/user-attachments/assets/62ac0d13-08b2-44b5-980e-cdd989a3c84c)
+![May-05-2025 07-23-09](https://github.com/user-attachments/assets/2a23ca28-9149-4353-9461-969959c94f06)
+![May-05-2025 07-22-49](https://github.com/user-attachments/assets/6b6dd8ad-af97-40be-8b73-8d664894dcf9)
+
