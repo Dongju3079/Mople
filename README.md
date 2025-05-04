@@ -20,16 +20,19 @@
 - 협업 툴 : Jira, Notion, Discord, Figma
 
 ## 경험한 것
-- 클린 아키텍처
-  - 관심사의 명확한 분리: Presentation - Domain - Data 계층으로 책임 분리
-  - 유지보수성 및 테스트 용이성 향상
-  - 의존성 역전 원칙 적용으로 모듈 간 결합도 최소화
-  - DI Container 의존성 주입을 통해 테스트 시 mock/테스트 유연한 처리
+- 클린 아키텍처 및 ReactorKit 사용
+  - Presentation 계층 (ViewController, Reactor)은 사용자 입력을 받고 상태(State)를 관리합니다.
+  - Domain 계층 (UseCase)은 비즈니스 로직 수행을 담당하며, 데이터 요청을 처리합니다.
+  - Data 계층 (Repository, NetworkService)은 실제 데이터 통신과 저장을 수행하며, Realm 및 URLSession을 활용합니다.
+  - DI Container는 각 계층 간의 의존성을 주입하여 결합도를 낮추고, 테스트 시 Mock 객체를 주입할 수 있도록 구성했습니다.
  
 - 코디네이터 패턴을 이용한 화면 관리
   - 코디네이터를 활용한 복잡한 화면 관리와 메모리 누수 방지
   - 앱 코디네이터 : 로그인, 메인 코디네이터 관리
   - 탭바 컨트롤러에 코디네이터 패턴 적용
+ 
+- 커스텀 트랜지션 사용
+  - 특정 화면(present/dismiss) 간 자연스러운 전환을 구현하여 사용자의 앱 경험을 향상시켰습니다.   
  
 - RxCocoa / RxDataSource
   - RxCocoa를 이용한 UI 컴포넌트와의 데이터 바인딩 처리
@@ -50,6 +53,7 @@
   - API 요청 시 JWT 토큰을 사용하여 인증 처리
   - 자동 토큰 갱신 로직 및 만료 처리 구현
   - 사용자 인증 및 권한 관리 경험
+  - API 요청이 동시에 발생할 때 토큰 만료로 인한 중복 갱신 요청 문제를 해결
 
 - 커스텀 UI, Alert 등 구현
   - 재사용 가능한 커스텀 뷰 및 컴포넌트 구현 경험
