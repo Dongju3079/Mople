@@ -14,6 +14,7 @@
 - 아키텍처 & 설계
   - Clean Architecture + ReactorKit 기반 계층 분리
   - Coordinator 패턴으로 화면 전환 로직 관리
+  - DI Container 의존성 주입을 통해 테스트 시 mock/테스트 유연한 처리
 
 - 비동기 처리
   - RxSwift를 활용한 이벤트 드리븐 방식
@@ -28,7 +29,7 @@
   - Realm + UserDefaults를 이용한 캐시 및 설정 값 관리
 
 - 민감 정보 보호
-  - Keychain으로 사용자 토큰·비밀번호 등 보안 저장
+  - Keychain으로 사용자 토큰·이메일 등 보안 저장
 
 - UI 컴포넌트 재사용성
   - Custom View 라이브러리화로 일관된 디자인·재사용성 강화
