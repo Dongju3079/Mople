@@ -2,14 +2,10 @@
 ![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
 ![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
-<img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
-
-
-## Archiecture
+## 아키텍쳐 구성도
 <img width="500" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
 
 ## 기술 스택
-
 - 아키텍처 & 설계 : Clean Architecture + ReactorKit
 - 비동기 처리 : RxSwift
 - 네트워크 통신 : URLSession + RxSwift
@@ -24,7 +20,6 @@
 - 협업 툴 : Jira, Notion, Discord, Figma
 
 ## 경험한 것
-
 - 클린 아키텍처
   - 관심사의 명확한 분리: Presentation - Domain - Data 계층으로 책임 분리
   - 유지보수성 및 테스트 용이성 향상
@@ -79,6 +74,9 @@
   - 네비게이션 간 자연스러운 전환을 위한 Transition 구현
  
 ## 스크린샷
+<img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
+<img width="1000" alt="무제 13_1" src="https://github.com/user-attachments/assets/d6cc99f3-7005-46ca-a4d0-6b032ec7db59" />
+
 ![May-05-2025 07-24-07](https://github.com/user-attachments/assets/e6accc75-38f0-426c-aae6-32c825035c38)
 ![May-05-2025 07-23-41](https://github.com/user-attachments/assets/94d311e1-cdb4-4894-a071-f1290f5394e4)
 ![May-05-2025 07-22-49](https://github.com/user-attachments/assets/a9d92888-eae6-4c0b-9469-af94019565b7)
