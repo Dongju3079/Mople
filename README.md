@@ -8,62 +8,46 @@
 ## Archiecture
 <img width="500" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
 
-
 ## 기술 스택
 
-- 아키텍처 & 설계
-  - Clean Architecture + ReactorKit 기반 계층 분리
-  - Coordinator 패턴으로 화면 전환 로직 관리
+- 아키텍처 & 설계 : Clean Architecture + ReactorKit
+- 비동기 처리 : RxSwift
+- 네트워크 통신 : URLSession + RxSwift
+- 이미지 로딩 & 캐싱 : Kingfisher
+- 로컬 데이터 저장 : Realm + UserDefaults
+- 민감 정보 보호 : Keychain으로 사용자 토큰·이메일 등 보안 저장
+- 협업 툴 : Jira, Notion, Discord, Figma
+
+## 경험한 것
+
+- 클린 아키텍처
+  - 관심사의 명확한 분리: Presentation - Domain - Data 계층으로 책임 분리
+  - 유지보수성 및 테스트 용이성 향상
+  - 의존성 역전 원칙 적용으로 모듈 간 결합도 최소화
   - DI Container 의존성 주입을 통해 테스트 시 mock/테스트 유연한 처리
 
-- 비동기 처리
-  - RxSwift를 활용한 이벤트 드리븐 방식
+- ReactorKit
+  - 단방향 데이터 흐름(UDF)을 통한 상태 관리 경험
+  - Reactor는 사용자 액션을 받아 UseCase를 실행하고, 그 결과를 바탕으로 상태(State)를 업데이트
+  - 각 계층의 명확한 역할 분리로 유지보수 및 테스트 용이성 확보
 
-- 네트워크 통신
-  - URLSession + RxSwift 조합으로 API 호출 및 응답 처리
+- 로그인 시스템 구현
+  - 소셜 로그인(Kakao, Apple)을 통한 로그인 
 
-- 이미지 로딩 & 캐싱
-  - Kingfisher로 비동기 이미지 다운로드 및 캐싱
+- 로그인 상태 및 세션 관리
+  - Keychain을 통한 보안 정보 관리
 
-- 로컬 데이터 저장
-  - Realm + UserDefaults를 이용한 캐시 및 설정 값 관리
+- JWT 토큰 사용 경험
+  - API 요청 시 JWT 토큰을 사용하여 인증 처리
+  - 토큰 만료 시 Refresh Token을 활용한 자동 재발급 로직 구현
+  - 사용자 인증 및 권한 관리 경험
+  - 자동 토큰 갱신 로직 및 만료 처리 구현
 
-- 민감 정보 보호
-  - Keychain으로 사용자 토큰·이메일 등 보안 저장
+- 커스텀 UI, Alert 등 구현
+  - 재사용 가능한 커스텀 뷰 및 컴포넌트 구현 경험
+  - 커스텀 Alert 설계 및 구현
 
-- UI 컴포넌트 재사용성
-  - Custom View 라이브러리화로 일관된 디자인·재사용성 강화
-
-- 협업 툴
-  - Jira, Notion, Discord, Figma를 통한 원활한 팀 커뮤니케이션
-
-
-
-
-
-
-
-- [소개](#소개)
-- [특징(Features)](#특징features)
-- [아키텍처](#아키텍처)
-- [설치 및 실행 방법](#설치-및-실행-방법)
-- [사용 예시](#사용-예시)
-- [코드 스니펫](#코드-스니펫)
-- [기술 스택](#기술-스택)
-- [라이선스](#라이선스)
-- [문의](#문의)
-
----
-
-## 2. 섹션별 작성 가이드
-
-### 📖 소개
-- 한두 문장으로 “이 프로젝트는 무엇인지”, “어떤 문제를 해결하는지” 를 요약  
-- 핵심 기능 2~3가지를 나열
-
-```markdown
-## 소개
-Mople은 사적인 모임 일정 관리 iOS 앱입니다.  
-- **프라이빗 초대** 기반 멤버 관리  
-- **캘린더 + 리스트** 동기화 뷰  
-- **ReactorKit + 클린 아키텍처** 적용
+- API 통신 및 에러 처리
+  - URLSession과 RxSwift 기반으로 효율적인 네트워크 처리
+  - 공통 에러 처리 로직 설계 및 사용자 친화적인 에러 처리 구현
+  - 네트워크 응답 모델(DTO)과 도메인 모델 간 변환(Mapping) 처리 경험
