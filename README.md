@@ -1,10 +1,9 @@
 # Mople 
+![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
+![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
 <img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
 
-
-![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
-![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
 ## Archiecture
 <img width="500" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
