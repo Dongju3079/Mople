@@ -14,8 +14,13 @@
 - 비동기 처리 : RxSwift
 - 네트워크 통신 : URLSession + RxSwift
 - 이미지 로딩 & 캐싱 : Kingfisher
+- 이미지 업로드 : MultipartFrom
 - 로컬 데이터 저장 : Realm + UserDefaults
 - 민감 정보 보호 : Keychain
+- 로그인 시스템 : Kakao, Apple
+- 지도 시스템 : NMAPSMap
+- 캘린더 : FSCalendar
+- 알림 수신 및 화면 트랙킹 : Firebase
 - 협업 툴 : Jira, Notion, Discord, Figma
 
 ## 경험한 것
@@ -30,6 +35,10 @@
   - 코디네이터를 활용한 복잡한 화면 관리와 메모리 누수 방지
   - 앱 코디네이터 : 로그인, 메인 코디네이터 관리
   - 탭바 컨트롤러에 코디네이터 패턴 적용
+ 
+- RxCocoa / RxDataSource
+  - RxCocoa를 이용한 UI 컴포넌트와의 데이터 바인딩 처리
+  - RxDataSource를 활용한 효율적이고 유연한 테이블뷰 및 컬렉션뷰 관리
 
 - ReactorKit
   - 단방향 데이터 흐름(UDF)을 통한 상태 관리 경험
@@ -71,8 +80,18 @@
  
 ## 스크린샷
 
-![May-05-2025 07-24-07](https://github.com/user-attachments/assets/36f314f8-1062-4305-8604-c3aa2f2ed11d)
-![May-05-2025 07-23-41](https://github.com/user-attachments/assets/62ac0d13-08b2-44b5-980e-cdd989a3c84c)
-![May-05-2025 07-23-09](https://github.com/user-attachments/assets/2a23ca28-9149-4353-9461-969959c94f06)
-![May-05-2025 07-22-49](https://github.com/user-attachments/assets/6b6dd8ad-af97-40be-8b73-8d664894dcf9)
+- 로그인 및 화면전환
+![May-05-2025 07-24-07](https://github.com/user-attachments/assets/e6accc75-38f0-426c-aae6-32c825035c38)
+
+- 커스텀 알림창 및 시트뷰 사용
+![May-05-2025 07-22-49](https://github.com/user-attachments/assets/53467c0c-5266-4367-be49-e115c2bd6142)
+![May-05-2025 07-23-09](https://github.com/user-attachments/assets/b93b6e1c-4ee1-4535-890d-008f659cb81e)
+
+- 캘린더 
+![May-05-2025 07-23-41](https://github.com/user-attachments/assets/94d311e1-cdb4-4894-a071-f1290f5394e4)
+
+- 모임 및 일정생성
+![May-05-2025 07-38-00](https://github.com/user-attachments/assets/b074abbb-9e11-4977-a262-db05a1172852)
+
+
 
