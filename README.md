@@ -1,7 +1,7 @@
 # 프로젝트 이름 🚀
 
 ![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
-![Swift Version](https://img.shields.io/badge/swift-5.8-orange)
+![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
 ## 목차
 - [소개](#소개)
