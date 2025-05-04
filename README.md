@@ -4,7 +4,7 @@
 ![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
 ## Archiecture
-[아키텍쳐 구성도.pdf](https://github.com/user-attachments/files/20030012/default.pdf)
+<img width="954" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
 
 
 ## 목차
