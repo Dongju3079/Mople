@@ -17,7 +17,7 @@
 - 지도 시스템 : NMAPSMap
 - 캘린더 : FSCalendar
 - 알림 수신 및 화면 트랙킹 : Firebase
-- 협업 툴 : Jira, Notion, Discord, Figma
+- 협업 툴 : Postman, Jira, Notion, Discord, Figma
 
 ## 경험한 것
 - 클린 아키텍처 및 ReactorKit 사용
