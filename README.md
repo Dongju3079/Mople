@@ -2,10 +2,10 @@
 ![iOS-Swift](https://img.shields.io/badge/platform-iOS-blue)
 ![Swift Version](https://img.shields.io/badge/swift-15.0-orange) 
 
-## 아키텍쳐 구성도
+## Architecture
 <img width="500" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
 
-## 기술 스택
+## Stack
 - 아키텍처 & 설계 : Clean Architecture + ReactorKit
 - 비동기 처리 : RxSwift
 - 네트워크 통신 : URLSession + RxSwift
@@ -19,7 +19,7 @@
 - 알림 수신 및 화면 트랙킹 : Firebase
 - 협업 툴 : Postman, Jira, Notion, Discord, Figma
 
-## 경험한 것
+## Experience
 - 클린 아키텍처 및 ReactorKit 사용
   - Presentation 계층 (ViewController, Reactor)은 사용자 입력을 받고 상태(State)를 관리합니다.
   - Domain 계층 (UseCase)은 비즈니스 로직 수행을 담당하며, 데이터 요청을 처리합니다.
