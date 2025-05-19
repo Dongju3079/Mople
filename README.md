@@ -87,10 +87,6 @@
 <img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
 <img width="1000" alt="무제 13_1" src="https://github.com/user-attachments/assets/d6cc99f3-7005-46ca-a4d0-6b032ec7db59" />
 
-![May-05-2025 07-24-07](https://github.com/user-attachments/assets/e6accc75-38f0-426c-aae6-32c825035c38)
-![May-05-2025 07-23-41](https://github.com/user-attachments/assets/94d311e1-cdb4-4894-a071-f1290f5394e4)
-![May-05-2025 07-22-49](https://github.com/user-attachments/assets/a9d92888-eae6-4c0b-9469-af94019565b7)
-
 ## Other Repositories
 | Part | Link                                  |
 |-------|-------------------------------------|
