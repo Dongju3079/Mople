@@ -19,6 +19,7 @@
 
 ## Architecture
 <img width="500" alt="아키텍쳐 구성도_1" src="https://github.com/user-attachments/assets/ed1d4cd5-574b-4293-84d9-0b0a4d0594e6" />
+<br>
 
 ## Stack
 - 아키텍처 & 설계 : Clean Architecture + ReactorKit
@@ -34,6 +35,7 @@
 - 알림 수신 및 화면 트랙킹 : Firebase
 - 리소스 관리 : SwiftGen
 - 협업 툴 : Jira, Notion, Discord, Figma
+<br>
 
 ## Experience
 ### 🧱 클린 아키텍처
@@ -41,12 +43,13 @@
   - 유지보수성 및 테스트 용이성 향상
   - 의존성 역전 원칙 적용으로 모듈 간 결합도 최소화
   - DI Container 의존성 주입을 통해 테스트 시 mock/테스트 유연한 처리
- 
+
 ### 🚀 화면 전환 & 코디네이터 패턴
   - 코디네이터를 활용한 복잡한 화면 관리와 메모리 누수 방지
   - 앱 코디네이터 : 로그인, 메인 코디네이터 관리
   - 탭바 컨트롤러에 코디네이터 패턴 적용
- 
+<br>
+
 ### 🔁 RxSwift 기반 상태 관리
   - RxCocoa를 이용한 UI 컴포넌트와의 데이터 바인딩 처리
   - RxDataSource를 활용한 효율적이고 유연한 테이블뷰 및 컬렉션뷰 관리
@@ -82,11 +85,13 @@
 ### 🎞️ 애니메이션
   - 부드러운 애니메이션을 활용한 화면 전환
   - 네비게이션 간 자연스러운 전환을 위한 Transition 구현
- 
-## 스크린샷
+<br>
+
+## ScreenShot
 <img width="1000" alt="앱 스린샷_1" src="https://github.com/user-attachments/assets/3f0b148e-4917-4055-957b-17921153088d" />
 <img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
 <img width="1000" alt="무제 13_1" src="https://github.com/user-attachments/assets/d6cc99f3-7005-46ca-a4d0-6b032ec7db59" />
+<br>
 
 ## Other Repositories
 | Part | Link                                  |
