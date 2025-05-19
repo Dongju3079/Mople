@@ -84,6 +84,7 @@
   - 네비게이션 간 자연스러운 전환을 위한 Transition 구현
  
 ## 스크린샷
+<img width="1000" alt="앱 스린샷_1" src="https://github.com/user-attachments/assets/3f0b148e-4917-4055-957b-17921153088d" />
 <img width="1000" alt="무제 12_1" src="https://github.com/user-attachments/assets/00fce7b8-715c-4c19-a4d6-7ae7244f13fc" />
 <img width="1000" alt="무제 13_1" src="https://github.com/user-attachments/assets/d6cc99f3-7005-46ca-a4d0-6b032ec7db59" />
 
