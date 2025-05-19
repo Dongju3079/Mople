@@ -94,5 +94,5 @@
 ## Other Repositories
 | Part | Link                                  |
 |-------|-------------------------------------|
-| iOS   | [GitHub - Mople](https://github.com/Dongju3079/Mople) |
+| Andriod   | [GitHub - Mople](https://github.com/robot156/Mople-Android) |
 | BE    | 비공개                              |
